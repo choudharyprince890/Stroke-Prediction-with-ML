@@ -1,51 +1,63 @@
-# Stroke Prediction
 
-## Problem Definition
+# Stroke Predition with Machine Learning
 
-A stroke occurs when a blood vessel in the brain ruptures and bleeds, or when there’s a blockage in the blood supply to the brain. The rupture or blockage prevents blood and oxygen from reaching the brain’s tissues. Without oxygen, brain cells and tissue become damaged and begin to die within minutes.
+This project is build with flask and bootstrap framework powered by machine learning model trained on Random Forrest Algoritham with the 95.6% accuracy.
 
-According to the World Health Organization (WHO) stroke is the 2nd leading cause of death globally, responsible for approximately 11% of total deaths. This project is used to predict whether a patient is likely to get stroke based on the input parameters like gender, age, various diseases, and smoking status.
 
-View the project [live](https://adnanhakim.github.io/stroke-prediction/)
 
-## Technology Stack
+## Summary
 
-- R Language and R markdown
+- ML model is trained on data set from kaggle and before EDA and Feature Engineering is perfoemed on Dataset
+- Machine Learning Pipeline is used in this project with transformers. 
+- Pipeline contaions min-max scalar and Grid Search CV for Hyper parameter Tuning.
+- Random Forrest Algoritham is also implementd inside the Pipeline.    
 
-## Dataset
 
-The dataset can be found in the [repository](https://github.com/adnanhakim/stroke-prediction) or can be downloaded from [Kaggle](https://www.kaggle.com/fedesoriano/stroke-prediction-dataset)
 
-The dataset contains 5110 real world observations and 10 different attributes:
-1. gender: "Male", "Female" or "Other"
-2. age: age of the patient
-3. hypertension: 0 if the patient doesn't have hypertension, 1 if the patient has hypertension
-4. heart_disease: 0 if the patient doesn't have any heart diseases, 1 if the patient has a heart disease
-5. ever_married: "No" or "Yes"
-6. Residence_type: "Rural" or "Urban"
-7. avg_glucose_level: average glucose level in blood
-8. bmi: body mass index
-9. smoking_status: "formerly smoked", "never smoked", "smokes" or "Unknown"*
-10. stroke: 1 if the patient had a stroke or 0 if not
 
-## Features of System
+## Tech Stack
+**Language:** Python, HTML, CSS
 
-- The system uses **data pre-processing** to handle character values as well as null values.
-- The system uses a **70-30** training-testing split.
-- The system uses **Logistic Regression**: Logistic Regression is a regression model in which the response variable (dependent variable) has categorical values such as True/False or 0/1. It actually measures the probability of a binary response as the value of response variable based on the mathematical equation relating it with the predictor variables.
-- The system uses efficient and effective **visualization graphs** which help identify and understand important factors for stroke.
+**Frameworks:** Flask, Bootstrap
 
-## Working of System
+**Libraries:** Numpy, Pandas, Matplotlib, Seaborn, Sklearn, pandas_profiling, pickle
 
-Logistic Regression
-- Input: The dataset
-- Output: Classification into 0 (no stroke) or 1 (stroke)
 
-Steps:
-1. Loading the dataset and required packages
-2. Pre-processing data to convert character to numeric and to remove null values
-3. Dividing the dataset into training set and test set
-4. Importing the Logistic Regression classifier and creating its object.
-5. Fitting the training data to the classifier
-6. Predicting the classifier output against the test data
-7. Comparing the predicted results with the test results to get the accuracy
+## Deployed link
+
+- [Click Me](https://github.com/choudharyprince890)
+
+
+## Installation
+
+Install dependencies with pip
+
+```bash
+pip install -r requirements.txt
+```
+Run the project with
+
+```bash
+python app.py
+```
+    
+## Featuires
+** Pipeline **
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+** Analysis **
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## Screenshots of Project
+** Pipeline **
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+** Analysis **
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Feedback
+
+If you have any feedback, please reach out to us at. 
+8360193315
+
