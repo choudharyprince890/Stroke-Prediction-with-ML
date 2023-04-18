@@ -43,7 +43,7 @@ python app.py
     
 ## Featuires
 ** Pipeline **
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](screenshots/pipeline dig.png)
 
 ** Analysis **
 ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
