@@ -42,19 +42,18 @@ python app.py
 ```
     
 ## Featuires
-** Pipeline **
-![App Screenshot](screenshots/pipeline dig.png)
+**Pipeline:**
 
-** Analysis **
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/choudharyprince890/Stroke-Prediction-with-ML/main/screenshots/pipeline%20dig.png)
+
+#### Analysis:
+
+![App Screenshot](https://raw.githubusercontent.com/choudharyprince890/Stroke-Prediction-with-ML/main/screenshots/analysis.png)
+![App Screenshot](https://raw.githubusercontent.com/choudharyprince890/Stroke-Prediction-with-ML/main/screenshots/analysis2.png)
 ## Screenshots of Project
-** Pipeline **
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-** Analysis **
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/choudharyprince890/Stroke-Prediction-with-ML/main/screenshots/ss1.png)
+![App Screenshot](https://raw.githubusercontent.com/choudharyprince890/Stroke-Prediction-with-ML/main/screenshots/ss2.png)
 
 ## Feedback
 
